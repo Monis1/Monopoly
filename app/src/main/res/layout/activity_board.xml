@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+     android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+    <TextView
+        android:background="@drawable/cell"
+        android:text="                        Go"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/textView1"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:textSize="8dp"
+        android:layout_weight="0.1"
+      />
+
+    <TextView
+        android:background="@drawable/cell"
+        android:text="White House"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/textView2"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:textSize="8dp"
+        android:layout_weight="0.1"
+        />
+
+    <TextView
+        android:background="@drawable/cell"
+        android:text="Chicago Avenue"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/textView3"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:textSize="8dp"
+        android:layout_weight="0.1"
+        />
+
+    <TextView
+        android:background="@drawable/cell"
+        android:text="Texas Avenue"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/textView4"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:textSize="8dp"
+        android:layout_weight="0.1"
+        />
+
+    <TextView
+        android:background="@drawable/cell"
+        android:text="          Utility"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/textView5"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:layout_weight="0.1"
+        android:textSize="8dp"  />
+
+    <TextView
+        android:background="@drawable/cell"
+        android:text="College Avenue"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/textView6"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:textSize="8dp"
+        android:layout_weight="0.1"
+        />
+
+    <TextView
+        android:background="@drawable/cell"
+        android:text="Burger King"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/textView7"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:layout_weight="0.1"
+        android:textSize="8dp" />
+
+    <TextView
+        android:background="@drawable/cell"
+        android:text="      Nothing"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/textView8"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:layout_weight="0.1"
+        android:textSize="8dp" />
+
+    <TextView
+        android:background="@drawable/cell"
+        android:text="Holiday-inn Hotel"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/textView9"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:layout_weight="0.1"
+        android:textSize="8dp" />
+
+    <TextView
+        android:background="@drawable/cell"
+        android:text="   Go to Jail"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/textView10"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:layout_weight="0.1"
+        android:textSize="8dp" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:background="@drawable/cell"
+            android:text="Mall of Arabia"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/textView11"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:textSize="8dp"
+            />
+
+        <TextView
+            android:background="@drawable/cell"
+            android:text="Role Again"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/textView12"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:textSize="8dp"
+            android:layout_alignParentRight="true"
+            />
+
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:background="@drawable/cell"
+            android:text="Roll Again"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/textView13"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:textSize="8dp"
+            />
+
+        <TextView
+            android:background="@drawable/cell"
+            android:text="Blue Mosque"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/textView14"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:textSize="8dp"
+            android:layout_alignParentRight="true"
+            />
+
+
+    </RelativeLayout>
+
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:background="@drawable/cell"
+            android:text="Washington Avenue"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/textView15"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:textSize="8dp"
+            />
+
+        <TextView
+            android:background="@drawable/cell"
+            android:text="Rail Roads"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/textView16"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:textSize="8dp"
+            android:layout_alignParentRight="true"
+            />
+
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:background="@drawable/cell"
+            android:text="Yellow House"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/textView17"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:textSize="8dp"
+            />
+
+        <TextView
+            android:background="@drawable/cell"
+            android:text="Luxury Tax"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/textView18"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:textSize="8dp"
+            android:layout_alignParentRight="true"
+            />
+
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:background="@drawable/cell"
+            android:text="Sheraton Hotel"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/textView19"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:textSize="8dp"
+            />
+
+        <TextView
+            android:background="@drawable/cell"
+            android:text="City Park"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/textView20"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:textSize="8dp"
+            android:layout_alignParentRight="true"
+            />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:background="@drawable/cell"
+            android:text="Nothing"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/textView21"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:textSize="8dp"
+            />
+
+        <TextView
+            android:background="@drawable/cell"
+            android:text="Nothing"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/textView22"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:textSize="8dp"
+            android:layout_alignParentRight="true"
+            />
+
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:background="@drawable/cell"
+            android:text="In Jail"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/textView23"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:textSize="8dp"
+            android:layout_weight="0.1"
+            />
+
+        <TextView
+            android:background="@drawable/cell"
+            android:text="Hilton Hotel"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/textView24"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:textSize="8dp"
+            android:layout_weight="0.1"
+            android:layout_marginTop="-5dp"
+            />
+
+        <TextView
+            android:background="@drawable/cell"
+            android:text="Blue House"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/textView25"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:textSize="8dp"
+            android:layout_weight="0.1"
+            android:layout_marginTop="-5dp"
+            />
+
+        <TextView
+            android:background="@drawable/cell"
+            android:text="Red House"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/textView26"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:textSize="8dp"
+            android:layout_weight="0.1"
+
+            />
+
+        <TextView
+            android:background="@drawable/cell"
+            android:text="Nothing"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/textView27"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:layout_weight="0.1"
+            android:textSize="8dp"
+
+            />
+
+        <TextView
+            android:background="@drawable/cell"
+            android:text="Marvin Garden"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/textView28"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:textSize="8dp"
+            android:layout_weight="0.1"
+            android:layout_marginTop="-5dp"
+            />
+
+        <TextView
+            android:background="@drawable/cell"
+            android:text="Income Tax"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/textView29"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:layout_weight="0.1"
+            android:layout_marginTop="-5dp"
+            android:textSize="8dp" />
+
+        <TextView
+            android:background="@drawable/cell"
+            android:text="Colorado Aveneue"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/textView30"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:layout_weight="0.1"
+            android:layout_marginTop="-5dp"
+            android:textSize="8dp" />
+
+        <TextView
+            android:background="@drawable/cell"
+            android:text="New York Avenue"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/textView31"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:layout_weight="0.1"
+            android:layout_marginTop="-5dp"
+            android:textSize="8dp" />
+
+        <TextView
+            android:background="@drawable/cell"
+            android:text="Free Parking"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/textView32"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:layout_weight="0.1"
+            android:textSize="8dp"
+            android:layout_marginTop="-5dp"
+            />
+    </LinearLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Monopoly</string>
+    <string name="action_settings">Settings</string>
+    <string name="pname1">Player1 Name:</string>
+    <string name="pname2">Player2 Name:</string>
+    <string name="start">Start</string>
+    <string name="selectplayer1">Select player 1 to play</string>
+    <string name="selectplayer2">Select player 2 to play</string>
+    <string name="endgame">End Game</string>
+    <string name="printboard">Print Board</string>
+    <string name="rolldice">Roll Dice</string>
+    <string name="move">Move</string>
+    <string name="buymove">Buy and Move</string>
+</resources>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/selectplayer1"
+        style="@android:style/Widget.Button"
+        android:text="@string/selectplayer1" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/selectplayer2"
+        style="@android:style/Widget.Button"
+        android:text="@string/selectplayer2" />
+
+    <Button
+        android:text="@string/printboard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/printboard"
+        style="@android:style/Widget.Button" />
+
+    <Button
+        android:text="@string/endgame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/endgame"
+        style="@android:style/Widget.Button" />
+</LinearLayout>
