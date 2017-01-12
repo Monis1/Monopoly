@@ -1,0 +1,3 @@
+# Monopoly
+
+A monopoly game for a custom created board with 2 dices and an option for buying or not buying the property....
